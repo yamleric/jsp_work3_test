@@ -15,7 +15,7 @@
 
 1.  **克隆项目**
     ```bash
-    git clone https://github.com/你的用户名/jsp-student-system.git
+    git clone https://github.com/yamleric/jsp_work3_test.git
     ```
 
 2.  **创建数据库**
