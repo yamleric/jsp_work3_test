@@ -20,7 +20,7 @@
             // 1. 加载驱动
             Class.forName("com.mysql.cj.jdbc.Driver");
             // 2. 建立连接 (!!! 关键：修改为你自己的密码 !!!)
-            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/test2?useUnicode=true&characterEncoding=UTF-8", "root", "123456");
+            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/test9?useUnicode=true&characterEncoding=UTF-8", "root", "123456");
             // 3. 创建语句
             stmt = conn.createStatement();
             // 4. 执行SQL

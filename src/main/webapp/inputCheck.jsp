@@ -40,7 +40,7 @@
         // 3. 连接数据库
         Class.forName("com.mysql.cj.jdbc.Driver");
         // (!!! 关键：修改为你自己的密码 !!!)
-        conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/test2?useUnicode=true&characterEncoding=UTF-8", "root", "123456");
+        conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/test9?useUnicode=true&characterEncoding=UTF-8", "root", "123456");
 
         // 4. 操作1：插入 (INSERT)
         String sqlInsert = "INSERT INTO stuinfo (id, name, gender, age, weight) VALUES (?, ?, ?, ?, ?)";
